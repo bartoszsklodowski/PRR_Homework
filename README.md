@@ -3,7 +3,7 @@
 ### Treść zadania:
 Zaimplementuj procedurę równoległego obliczania wariancji próby statystycznej, czyli wielkości:
 
-![](./images/formula.png)
+![Sampling variance formula](./images/formula.png)
 
 Zadanie trzeba było zrobić w 5 krokach:
 * Sekwencyjnie 
