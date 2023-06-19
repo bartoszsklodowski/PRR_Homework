@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+service SamplingVariance {
+  rpc PerformCalculation (SamplingVarianceRequest) returns (SamplingVarianceReply);
+}
+
+message SamplingVarianceRequest {
+  repeated double chunk = 1;
+}
+
+message SamplingVarianceReply {
+  double sum = 1;
+  double sum_of_squares = 2;
+}
